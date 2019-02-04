@@ -120,7 +120,7 @@ func main() {
 		fmt.Println(objeto.Data.Heros[0].Name)
 		fmt.Println("*--Description--*")
 		fmt.Println(objeto.Data.Heros[0].Description)
-		fmt.Println("*--Description--*")
+		fmt.Println("*--Fecha de Creación--*")
 		fmt.Println(objeto.Data.Heros[0].Creation)
 		fmt.Println("*--Comics--*")
 		cant := len(objeto.Data.Heros[0].Comic.Items)
