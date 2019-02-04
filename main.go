@@ -139,7 +139,7 @@ func main() {
 		for i := 0; i < canti; i++ {
 			fmt.Println(objeto.Data.Heros[0].Storie.Items[i].Name)
 		}
-		fmt.Println("*--Stories--*")
+		fmt.Println("*--Series--*")
 		cantid := len(objeto.Data.Heros[0].Serie.Items)
 		fmt.Print("*--Existen ")
 		fmt.Print(cantid)
